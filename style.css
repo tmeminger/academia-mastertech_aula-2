@@ -1,0 +1,92 @@
+body{
+    margin:0;
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("img/fundoarroz.jpg");
+    background-size: cover; 
+}
+
+.banner h1, h4{
+    color: #fa3c0c;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 30pt;
+    margin: 0;
+    padding: 40px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(136, 24, 48);
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 186, 65); 
+}
+
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.botao{
+    background-color: rgb(155, 206, 97);
+    color: black;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: red;
+    color: azure; 
+}
+
+.footer {
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.footer div{
+    width: 150px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer div img{
+    width: 10%;
+    height: auto;
+}
+    
+  
+
